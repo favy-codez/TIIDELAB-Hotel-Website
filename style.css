@@ -40,18 +40,26 @@ a{
     text-align: center;
     /* background: linear-gradient(rgba(44, 43, 44, 0.8), rgba(59, 57, 57, 0.8)),;   */
     color: #fff;
+    opacity: 0.9;
+    /* backdrop-filter: blur(14px) brightness(10%); */
+    text-shadow: #000000cb;
+}
+
+.hero-text{
+    backdrop-filter: blur(2.9px) brightness(100%);
 }
 
 .hero-section h1{
     font-size: 4rem;
     color: #000017;
-    /* backdrop-filter: blur(14px) brightness(100%); */
+    text-shadow: #000000cb;
 }
 
 .hero-section p{
     font-size: 1.2rem;
     margin: 1rem 0 2rem 0;
     color: #000017;
+    text-shadow: #000000cb;
 }
 
 .hero-btn{
@@ -61,6 +69,10 @@ a{
     color: #fff;
     font-size: 16px;
     border-radius: 10px 0 10px 0;
+}
+
+.section-one h2{
+    text-align: center;
 }
 
 /* section-one */
