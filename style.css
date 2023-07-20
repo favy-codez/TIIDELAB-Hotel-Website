@@ -11,5 +11,53 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 3rem;
+    padding: 1.5rem 3rem;
+}
+
+.logo h2{
+    font-weight: 800;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: initial;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
+
+/* HERO SECTION*/
+.hero-section{
+    background-image: url(./images/tr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding:8rem 3rem;
+    text-align: center;
+    background: linear-gradient(rgba(44, 43, 44, 0.8), rgba(59, 57, 57, 0.8)),;  
+}
+
+.hero-section h1{
+    font-size: 4rem;
+    color: #000017;
+}
+
+.hero-section p{
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem 0;
+    color: #000017;
+}
+
+.hero-btn{
+    padding: 10px 20px;
+    border: none;
+    /* background-color: #24202E; */
+    background-color: #000017;
+    color: #fff;
+    font-size: 12px;
+    border
 }
