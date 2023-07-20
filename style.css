@@ -71,12 +71,19 @@ a{
     border-radius: 10px 0 10px 0;
 }
 
-.section-one h2{
-    text-align: center;
-}
-
 /* section-one */
 .section-one{
+    margin: 0 2rem;
+}
+
+.section-one h2{
+    text-align: center;
+    font-weight: 500;
+    margin: 1.7rem 0 1rem 0;
+    font-size: 3rem;
+}
+
+.section-1ab{
     display: flex;
     margin: 2rem 3rem;
 }
@@ -89,7 +96,7 @@ a{
     /* background-color: #000; */
     color: #000;
     text-align: center;
-    padding: 4rem 1rem ;
+    padding: 0rem 1rem ;
     width: 800px;
 }
 
@@ -102,7 +109,7 @@ a{
 .section-1a p{
     font-size: 18px;
     margin: 2rem auto;
-    width: 650px;
+    width: 600px;
     line-height: 28px;
 }
 
