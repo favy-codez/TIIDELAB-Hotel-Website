@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dc4abd89aa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <title>HBT HOTEL</title>
@@ -14,19 +17,50 @@
             <h2>HBT</h2>
         </div>
         <div class="nav">
+            <a href="./index.html">HOME</a>
             <a href="./about.html">ABOUT</a>
-            <a href="./contact.html">contact</a>
+            <a href="./contact.html">CONTACT</a>
         </div>
     </header>
 
     <main>
-        <h2><span>Contact</span>Us</h2>
-        <p>Please fill out the form below to</p>
-        <form action="">
-
+        <div class="contact-container">
+            <h2><span>Contact</span>Us</h2>
+            <p>Please fill out the form below to contact us.</p>
+            <form action="">
+                <div class="name">
+                    <label for="Name">Name</label>
+                    <input type="text" name="Name" id="" placeholder="Enter Name">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" name="Email" id="" placeholder="Enter Email Address">
+             </div>
+             <div class="message">
+                <label for="Message">Message</label>
+                <input type="text" name="" id="">
+            </div>
+            <button type="submit">SUBMIT</button>
         </form>
+        </div>
     </main>
-
+    <div class="about-section2">
+        <div class="about-a">
+            <i class="fa-solid fa-landmark"></i>
+            <h4>Location</h4>
+            <p>50 Main st. Boston MA.</p>
+        </div>
+        <div class="about-b">
+            <i class="fa-solid fa-phone"></i>
+            <h4>Phone Number</h4>
+            <p>(546)-345-5230/p>
+        </div>
+        <div class="about-c">
+            <i class="fa-regular fa-envelope"></i>
+            <h4>Email Address</h4>
+            <p>HBThotel@gmail.com</p>
+        </div>
+    </div>
     <footer>
         <p>Hotel HBT & 2019, All Rights Reserved.</p>
     </footer>
