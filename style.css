@@ -5,6 +5,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* hover  */
+a:hover, button:hover, .contact-btn:hover{
+    color: #BFA764;
+}
+
+
 header{
     background-color: #fff;
     color: #000;
@@ -80,7 +86,6 @@ a{
     text-align: center;
     font-weight: 500;
     margin: 1.7rem 0 1rem 0;
-    font-size: 3rem;
 }
 
 .section-1ab{
@@ -128,13 +133,20 @@ a{
 }
 
 /* section-two */
-.section-two{
+.section-two h2{
+    color: #BFA764;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.sec-container{
     display: flex;
     text-align: center;
-    padding: 6rem 3rem;
+    padding:3rem 3rem 5rem 3rem;
 }
 
-.fa-solid{
+.fa-solid, .fa-regular {
     font-size: 4rem;
 }
 
@@ -165,4 +177,66 @@ footer{
     color: #fff;
     text-align: center;
     padding: 1.5rem 0;
+}
+
+/* *************************************contact-container************************* */
+.contact-container{
+    margin: 0 3rem;
+}
+
+.contact-container h2{
+    margin: 0 0 15px 0;
+}
+
+.contact-container span{
+    color: #BFA764;
+}
+
+.contact-container p{
+    font-size: 17px;
+    margin: 12px 0 15px 0;
+}
+
+::placeholder{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.name, .email, .message{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.about-section2{
+    display: flex;
+    margin: 4rem 3rem;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.about-section2 h4{
+    font-size: 18px;
+    margin: 7px 0 26px 0;
+}
+
+.about-section2 p{
+    font-size: 20px;
+}
+
+.about-b p{
+    margin: 6px 0 0 0;
+}
+
+.contact-btn{
+    padding: 15px 20px;
+    width: 150px;
+    border: none;
+    background-color: #000017;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px 0 10px 0;
+    margin: 10px 0 0 0;
 }
