@@ -38,12 +38,14 @@ a{
     width: 100%;
     padding:8rem 3rem;
     text-align: center;
-    background: linear-gradient(rgba(44, 43, 44, 0.8), rgba(59, 57, 57, 0.8)),;  
+    /* background: linear-gradient(rgba(44, 43, 44, 0.8), rgba(59, 57, 57, 0.8)),;   */
+    color: #fff;
 }
 
 .hero-section h1{
     font-size: 4rem;
     color: #000017;
+    /* backdrop-filter: blur(14px) brightness(100%); */
 }
 
 .hero-section p{
@@ -59,5 +61,73 @@ a{
     background-color: #000017;
     color: #fff;
     font-size: 12px;
-    border
+    border-radius: 8px 0 8px 0;
+}
+
+/* section-two */
+.section-two{
+    display: flex;
+    text-align: center;
+    padding: 3rem ;
+}
+
+.fa-solid{
+    font-size: 4rem;
+}
+
+.section-two h4{
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.section-two p{
+    font-size: 16px;
+}
+
+.section-2a{
+    padding: 0 20px;
+}
+
+.section-2b{
+    padding: 0 40px;
+}
+
+.section-2c{
+    padding: 0 40px;
+}
+
+/* section-one */
+.section-one{
+    display: flex;
+}
+
+.section-1a {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px ;
+}
+
+.section-1a h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000017;
+}
+
+.section-1a p{
+    font-size: 16px;
+    width: 500px;
+    margin: 1rem 0;
+}
+
+.section-one img{
+    width: 650px;
+}
+
+/* footer */
+footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
 }
